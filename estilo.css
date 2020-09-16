@@ -1,23 +1,46 @@
-#t1{
-    background-color: darkcyan;
-    color: darksalmon;
-}
-   
-#t2 {
-    background-color: darksalmon;
-    color: darkcyan
+html,body {
+    margin: 0;
 }
 
-#t3 {
-    background-color: darksalmon;
-    color: darkcyan;
-}
-p {
-    color: black
-    background-color: white;
+#imagem_fundo {
+    background: url(pexels-anamul-rezwan-1145434.jpg);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
 }
 
-#t4 {
-    background-color: darksalmon;
-    color: darkcyan;
+#titulo {
+    padding-top: 7%;
+    color:  rgba(80, 2, 57, 0.904); 
+    text-shadow:peachpuff 2px 2px;
+    font-size: 350%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+#subtitulo {
+    padding-top: 6%;
+    color: white;
+    text-shadow:rgba(80, 2, 57, 0.904) 3px 3px;
+    font-size: 240%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 15px 20px 15px 20px 
+    
+}
+.icone {
+    width: 51px;
+}
+
+section {
+    padding: 20px;
+}
+
+.destaque {
+    background-color: #f7f7f7;
+
 }
